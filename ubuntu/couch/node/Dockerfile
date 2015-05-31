@@ -1,4 +1,6 @@
-FROM divsense/ubuntu
+### divsense/ubuntu-couch-node
+
+FROM divsense/ubuntu-couch
 
 MAINTAINER divsense <info@divsense.com>
 
@@ -19,4 +21,5 @@ VOLUME ["/var/lib/couchdb"]
 
 EXPOSE 5984
 
-CMD ["/usr/local/bin/run"]
+#CMD ["/usr/local/bin/run"]
+CMD ["bash"]
