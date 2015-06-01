@@ -1,4 +1,4 @@
-### divsense/ubuntu
+### divsense/utopic
 
 FROM ubuntu:utopic
 MAINTAINER divsense <info@divsense.com>
@@ -14,6 +14,6 @@ RUN apt-get update && \
       git-core logrotate software-properties-common && \
     locale-gen en_US en_US.UTF-8 && \
     apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
+    rm -rf /var/lib/apt\/lists/*
 
 CMD ["bash"]

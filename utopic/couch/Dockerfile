@@ -1,7 +1,6 @@
-### divsense/ubuntu-couch-node
+### divsense/utopic-couch
 
-FROM divsense/ubuntu-couch
-
+FROM divsense/utopic
 MAINTAINER divsense <info@divsense.com>
 
 ENV DEBIAN_FRONTEND noninteractive
